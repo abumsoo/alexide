@@ -1,0 +1,19 @@
+How do I parse through python code that's being written on a web app?
+Since it's an interpreted language, should I just run the code like every second
+or two? Would that be extremely heavy? Well, let's just try it.
+
+Okay. Editor: Ace editor.
+
+Starting with tabs vs. spaces. Detect if there are inconsistencies in the
+tabs/spaces that the user is typing in.
+
+What's a super simple example?
+x = 11/4
+if (x == 2.75):
+    print(x)
+else:
+    print("Int/int doesn't work")
+
+Look for the error in which they're looking to compare a float to what might
+look like another float, but really isn't because and int divided by an int
+doesn't give you float.
